@@ -1,0 +1,68 @@
+
+<!-- saved from url=(0033)http://127.0.0.1:5500/signup.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    
+<link rel="stylesheet" href="./Sign up_files/styles.css"><link rel="stylesheet" href="./Sign up_files/font-awesome.min.css"><link rel="stylesheet" href="./Sign up_files/w3.css"><link rel="stylesheet" href="./Sign up_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></head>
+<body id="sitebody3"><a href="http://127.0.0.1:5500/signup.html"></a><div id="logo"><a href="http://127.0.0.1:5500/signup.html"> <img id="gg2" src="./Sign up_files/gg.png" alt=""></a></div>
+
+    <div id="singupbar">
+    
+    <div id="flname">    
+   <div class="userinfo" id="firstname"> <h3>First Name: </h3><input class="fnameinput" type="text"> </div>
+   <div class="userinfo" id="lastname"> <h3>Last Name: </h3><input class="lnameinput" type="text"> </div>
+</div>
+   <div class="userinfo" id="Email"> <h3>Email:</h3><input class="emailinput" type="text"> </div>
+   <div class="userinfo" id="password"> <h3>Password: </h3><input class="passwordinput" type="text"> </div>
+   <div class="userinfo" id="confirmpassword"> <h3>Conirm Password:</h3><input class="confirmpasswordinput" type="text"> </div>
+</div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
